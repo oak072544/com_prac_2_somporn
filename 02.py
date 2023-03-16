@@ -1,0 +1,10 @@
+it1 = int(input("Enter your Product price 1 : "))
+it2 = int(input("Enter your Product price 2 : "))
+it3 = int(input("Enter your Product price 3 : "))
+it4 = int(input("Enter your Product price 4 : "))
+a = (it1,it2,it3,it4)
+b = (it1+it2+it3+it4)
+
+print('Product price : '+ str(a))
+print('Total price = ' + str(b))
+print('Money to pay = ' + str(b - (min(a))))
